@@ -53,7 +53,7 @@ export default async function TechniquePost({ params }: { params: Promise<{ slug
                 </div>
             </div>
 
-            <div className="post-content-container relative z-20 -mt-10">
+            <div className="post-content-container relative z-20 -mt-10 px-4 lg:px-0">
                 <div className="max-w-[800px] mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
                     {post.mainImage && (
                         <div className="relative w-full aspect-video">

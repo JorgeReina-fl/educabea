@@ -103,7 +103,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
 
     return (
         <article className="bg-white min-h-screen py-24">
-            <div className="post-content-container">
+            <div className="post-content-container px-4 lg:px-0">
                 {/* Header */}
                 <div className="text-center">
                     <div className="flex justify-center gap-2 mb-4">
